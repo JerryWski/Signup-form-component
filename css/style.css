@@ -63,8 +63,43 @@ body {
   padding: 1em 0;
   -webkit-box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.19);
           box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.19);
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 .wrapper .trial-container .trial-text span {
   font-weight: 700;
+}
+.wrapper .input-wrapper {
+  background-color: #fff;
+  padding: 1em 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.19);
+}
+.wrapper .input-wrapper .input-container {
+  padding: 0.5em;
+  position: relative;
+}
+.wrapper .input-wrapper .input-container input {
+  padding: 1.4em 1em;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid hsl(247deg, 29%, 88%);
+  font-weight: 700;
+  outline: none;
+}
+.wrapper .input-wrapper .input-container input:focus {
+  border: 1px solid hsl(247deg, 14%, 62%);
+}
+.wrapper .input-wrapper .input-container p {
+  font-size: 0.7rem;
+  text-align: right;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  color: hsl(0deg, 100%, 74%);
+  font-weight: 600;
+}
+.wrapper .input-wrapper .input-container .error-icon {
+  position: absolute;
+  top: 27%;
+  right: 7%;
 }/*# sourceMappingURL=style.css.map */
