@@ -34,5 +34,24 @@ body {
           align-items: center;
   height: 100vh;
   background-image: url(/images/bg-intro-mobile.png);
-  background-color: pink;
+  background-color: hsl(0deg, 100%, 74%);
+}
+
+.wrapper {
+  padding: 4.5em 2em;
+}
+.wrapper .intro {
+  text-align: center;
+}
+.wrapper .intro__text--heading {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.wrapper .intro__text--normal {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-bottom: 3.5em;
 }/*# sourceMappingURL=style.css.map */
