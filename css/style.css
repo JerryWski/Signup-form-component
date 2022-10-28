@@ -118,4 +118,14 @@ body {
   top: 27%;
   right: 7%;
   display: none;
+}
+.wrapper .input-wrapper .terms-container {
+  text-align: center;
+  font-size: 0.6rem;
+  color: hsl(246deg, 25%, 77%);
+  padding: 1em 1.4em;
+  font-weight: 700;
+}
+.wrapper .input-wrapper .terms-container span {
+  color: hsl(0deg, 100%, 74%);
 }/*# sourceMappingURL=style.css.map */
