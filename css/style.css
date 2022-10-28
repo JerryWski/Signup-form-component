@@ -119,6 +119,16 @@ body {
   right: 7%;
   display: none;
 }
+.wrapper .input-wrapper .input-container.error .error-icon {
+  display: block;
+}
+.wrapper .input-wrapper .input-container.error p {
+  display: block;
+}
+.wrapper .input-wrapper .input-container.error input {
+  border: 1px solid hsl(0deg, 100%, 74%);
+  color: hsl(0deg, 100%, 74%);
+}
 .wrapper .input-wrapper .terms-container {
   text-align: center;
   font-size: 0.6rem;
@@ -128,4 +138,9 @@ body {
 }
 .wrapper .input-wrapper .terms-container span {
   color: hsl(0deg, 100%, 74%);
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
