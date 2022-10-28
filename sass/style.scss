@@ -9,3 +9,19 @@
   margin: 0;
   padding: 0;
 }
+
+html{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/images/bg-intro-mobile.png);
+  background-color: pink;
+}
