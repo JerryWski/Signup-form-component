@@ -33,7 +33,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
   background-color: hsl(0deg, 100%, 74%);
 }
 
@@ -157,7 +157,7 @@ footer a {
 }
 @media (min-width: 476px) {
   body {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
   }
   body .wrapper {
     display: -webkit-box;
