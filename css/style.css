@@ -156,7 +156,10 @@ footer a {
   }
 }
 @media (min-width: 476px) {
-  .wrapper {
+  body {
+    background-image: url(/images/bg-intro-desktop.png);
+  }
+  body .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -164,16 +167,16 @@ footer a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .wrapper .signup-container {
+  body .wrapper .signup-container {
     width: 500px;
     margin-left: 1em;
   }
-  .wrapper .intro {
+  body .wrapper .intro {
     text-align: left;
     width: 500px;
     margin-right: 1em;
   }
-  .wrapper .intro .intro__text--heading {
+  body .wrapper .intro .intro__text--heading {
     font-size: 3rem;
     padding-bottom: 0.5em;
   }

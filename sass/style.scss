@@ -157,6 +157,8 @@ footer {
 }
 
 @media (min-width:476px) {
+body {
+  background-image: url(/images/bg-intro-desktop.png);  
 .wrapper {
   display: flex;
   align-items: center;
@@ -174,4 +176,5 @@ footer {
   }
 }
  }
+}
 }
