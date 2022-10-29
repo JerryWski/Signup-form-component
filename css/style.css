@@ -169,7 +169,12 @@ footer a {
     margin-left: 1em;
   }
   .wrapper .intro {
+    text-align: left;
     width: 500px;
     margin-right: 1em;
+  }
+  .wrapper .intro .intro__text--heading {
+    font-size: 3rem;
+    padding-bottom: 0.5em;
   }
 }/*# sourceMappingURL=style.css.map */

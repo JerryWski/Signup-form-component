@@ -3,8 +3,6 @@ const surname = document.querySelector("#surname");
 const email = document.querySelector("#email");
 const password = document.querySelector("#password");
 const submitBtn = document.querySelector(".submit-btn");
-const textError = document.querySelector('.text-error')
-console.log(textError);
 
 const showError = (input) => {
   const formBox = input.parentElement;
@@ -26,23 +24,21 @@ const checkForm = (input) => {
   });
 };
 
-const checkMail= (email) => {
- const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
- if(re.test(email.value)) {
-    removeError(email)
- }else {
-    showError(email)
- }
-}
+const checkMail = (email) => {
+  const re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if (re.test(email.value)) {
+    removeError(email);
+  } else {
+    showError(email);
+  }
+};
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const inputs = [username, surname, email, password];
 
   checkForm(inputs);
-  checkMail(email)
+  checkMail(email);
 
-//   inputs.forEach((el) => {
-//     el.value = "";
-//   });
 });

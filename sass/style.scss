@@ -165,8 +165,13 @@ footer {
   margin-left: 1em;
 }
 .intro {
+  text-align: left;
   width: 500px;
   margin-right: 1em;
+  .intro__text--heading {
+    font-size: 3rem;
+    padding-bottom: .5em;
+  }
 }
  }
 }
