@@ -155,3 +155,18 @@ footer {
     
   }
 }
+
+@media (min-width:476px) {
+.wrapper {
+  display: flex;
+  align-items: center;
+.signup-container {
+  width: 500px;
+  margin-left: 1em;
+}
+.intro {
+  width: 500px;
+  margin-right: 1em;
+}
+ }
+}

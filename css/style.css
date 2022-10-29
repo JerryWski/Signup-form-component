@@ -154,4 +154,22 @@ footer a {
   .attribution {
     display: none;
   }
+}
+@media (min-width: 476px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .signup-container {
+    width: 500px;
+    margin-left: 1em;
+  }
+  .wrapper .intro {
+    width: 500px;
+    margin-right: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */
