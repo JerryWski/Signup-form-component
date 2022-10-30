@@ -28,9 +28,11 @@ body {
 
 .wrapper {
   padding: 4.5em 2em;
+  
 
   .intro {
     text-align: center;
+    
 
     &__text--heading {
       color: white;
@@ -148,7 +150,10 @@ footer {
   }
 }
 
-@media (max-width:475px) {
+@media (max-width:625px) {
+  .wrapper {
+    
+  }
 
   .attribution {
     display: none;
@@ -156,19 +161,20 @@ footer {
   }
 }
 
-@media (min-width:476px) {
+@media (min-width:626px) {
 body {
   background-image: url(../images/bg-intro-desktop.png);  
 .wrapper {
+  
   display: flex;
   align-items: center;
 .signup-container {
-  width: 500px;
+  width: 50%;
   margin-left: 1em;
 }
 .intro {
   text-align: left;
-  width: 500px;
+  width: 50%;
   margin-right: 1em;
   .intro__text--heading {
     font-size: 3rem;

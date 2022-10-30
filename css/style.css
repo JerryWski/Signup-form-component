@@ -150,12 +150,12 @@ footer a {
   color: #fff;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 625px) {
   .attribution {
     display: none;
   }
 }
-@media (min-width: 476px) {
+@media (min-width: 626px) {
   body {
     background-image: url(../images/bg-intro-desktop.png);
   }
@@ -168,12 +168,12 @@ footer a {
             align-items: center;
   }
   body .wrapper .signup-container {
-    width: 500px;
+    width: 50%;
     margin-left: 1em;
   }
   body .wrapper .intro {
     text-align: left;
-    width: 500px;
+    width: 50%;
     margin-right: 1em;
   }
   body .wrapper .intro .intro__text--heading {
